@@ -27,8 +27,9 @@ ListNode* AddTwoNumbers::addTwoNumbers(ListNode *l1, ListNode *l2) {
 
 void AddTwoNumbers::display(ListNode *node) {
     while(node!=NULL){
-        std::cout<<node->val<<std::endl;
+        std::cout<<node->val<<",";
         node=node->next;
     }
+    std::cout<<std::endl;
 
 }
