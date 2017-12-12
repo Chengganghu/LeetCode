@@ -9,5 +9,5 @@
 #define LEETCODE_TWOSUM_H
 
 #include <vector>
-std::vector<int> twoSum(std::vector<int>& nums,int target);
+std::vector<int>* twoSum(std::vector<int>& nums,int target);
 #endif //LEETCODE_TWOSUM_H
