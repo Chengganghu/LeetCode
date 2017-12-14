@@ -1,6 +1,7 @@
 #include <iostream>
 #include "AddTwoNumbers.h"
 #include "twoSum.h"
+#include "SubString.h"
 int main() {
     std::cout << "Hello, World!" << std::endl;
     AddTwoNumbers* a = new AddTwoNumbers();
@@ -17,6 +18,7 @@ int main() {
     a->display(res);
     std::vector<int> vec ={1,2,3,4,5,6,7} ;
     std::vector<int>* target = twoSum(vec,6);
-
+    SubString* s = new SubString();
+    int numberSubstring = s->lengthOfLongestSubstring("abcabcbb");
     return 0;
 }
