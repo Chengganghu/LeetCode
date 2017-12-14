@@ -11,7 +11,6 @@ std::vector<int>* twoSum(std::vector<int> &nums, int target) {
             if(nums[i]+nums[j]==target)
                 return new std::vector<int>{nums[i],nums[j]};
         }
-
     }
     throw std::bad_exception();
 }
