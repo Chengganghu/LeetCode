@@ -17,7 +17,7 @@ int main() {
     a->display(l2);
     a->display(res);
     std::vector<int> vec ={1,2,3,4,5,6,7} ;
-    std::vector<int>* target = twoSum(vec,6);
+    std::vector<int>* target = twoSum(vec,8);
     SubString* s = new SubString();
     int numberSubstring = s->lengthOfLongestSubstring("abcabcbb");
     return 0;
