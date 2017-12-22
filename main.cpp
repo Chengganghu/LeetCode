@@ -20,6 +20,7 @@ int main() {
     std::vector<int>* target = twoSum(vec,8);
     SubString* s = new SubString();
     int numberSubstring = s->lengthOfLongestSubstring("abcabcbb");
+    std::cout<<numberSubstring<<std::endl;
     int numberSubstring01 = s->lengthOfLongestSubstring("huchenggang");
     std::cout<<numberSubstring01<<std::endl;
     return 0;
